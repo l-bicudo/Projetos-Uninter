@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html  lang="pt-BR">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <title>Lucas Bicudo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Lucas Bicudo</title>
 </head>
+
 <body>
 
   <nav class="navbar">
-      <div class="logo">Lucas Bicudo</div>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo" class="logo-img">
+      Lucas Bicudo
     </div>
     <div class="navbar-links">
       <a class="ativo" href="#sobremim">Sobre Mim</a>
@@ -20,54 +25,84 @@
     </div>
   </nav>
 
-  <!-- Sections -->
   <section id="sobremim">
     <h2>Sobre Mim</h2>
-    <p>Oi! Sou uma mistura de HQs, videogames e domingos de futebol na TV. Cresci folheando gibis e salvando o mundo com controles na mão — e até hoje me perco nessas histórias, sejam elas desenhadas, jogadas ou narradas pelos comentaristas esportivos.</p>
-    <p>Gosto de coisas simples, como um bom café, uma tarde chuvosa com jogo novo pra zerar ou aquele golaço no finalzinho do segundo tempo. Curioso por natureza, tô sempre querendo entender como as coisas funcionam (ou pelo menos tentando!). Se pudesse, viveria num universo onde heróis usam chuteiras e consoles salvam o dia.</p>
+    <p>Oi! Sou o Lucas Bicudo, uma mistura de HQs, videogames e domingos
+      de futebol na TV. Cresci folheando gibis e salvando o mundo com controles
+      na mão e até hoje me perco nessas histórias, sejam elas desenhadas,
+      jogadas ou narradas pelos comentaristas esportivos.
+    </p>
+    <p>
+      Gosto de coisas simples, como um bom café, uma tarde chuvosa com jogo
+      novo pra zerar ou aquele golaço no finalzinho do segundo tempo.
+      Curioso por natureza, tô sempre querendo entender como as coisas funcionam
+      (ou pelo menos tentando!). Se pudesse, viveria num universo onde heróis
+      usam chuteiras e consoles salvam o dia.
+    </p>
   </section>
 
   <section id="formacao">
     <h2>Formação</h2>
-    <p>Aprendendo na era das LLM, mas sem alucinar! Estou cursando o técnologo de Análise e Desenvolvimento de Sistemas na Uninter no modelo EAD.</Data> </p>
+    <p>
+      Aprendendo na era das LLM, mas sem alucinar! Estou cursando o técnologo
+      de Análise e Desenvolvimento de Sistemas na Uninter no modelo EAD.
+    </p>
     <span>Ensino Médio</span>
     <ul>
-        <li>SESI 434 Tatuapé</li>
-        <li>Concluído em 2016</li>
+      <li>SESI 434 Tatuapé</li>
+      <li>Concluído em 2016</li>
     </ul>
-    </br>
+    <br>
     <span>Ensino Superior</span>
     <ul>
-        <li>Uninter</li>
-        <li>Conclusão em 2027</li>
+      <li>Uninter</li>
+      <li>Conclusão em 2027</li>
     </ul>
-    </br>
+    <br>
     <span>Inglês</span>
     <ul>
-        <li>Cultura Inglesa (Básico)</li>
-        <li>Concluído em 2018</li>
+      <li>Cultura Inglesa (Básico)</li>
+      <li>Concluído em 2018</li>
     </ul>
   </section>
 
   <section id="portfolio">
     <h2>Portfólio</h2>
-    <p>Tenho alguns projetos simples desenvolvidos para estudos, e alguns cujo possuo apenas a ideia e pretendo desenvolver conforme eu aprimorar os meus conhecimentos.</p>
+    <p>
+      Tenho alguns projetos simples desenvolvidos para estudos, e alguns cujo
+      possuo apenas a ideia e pretendo desenvolver conforme eu aprimorar
+      os meus conhecimentos.
+    </p>
     <h3>Curriculum</h3>
-    <p>Esse site foi desenvolvido a partir de uma lista de projetos propostos para estudantes do <a class="main_links" href="https://roadmap.sh/frontend">Roadmap Frontend Developer</a>. Basicamente trata-se de um único arquivo HTML que representa meu currículo.</p>
-    <a class="main_links" href="curriculum/index.html">CV Curriculum Vitae</a>
+    <p>
+      Esse site foi desenvolvido a partir de uma lista de projetos propostos 
+      para estudantes do 
+      <a class="main_links" href="https://roadmap.sh/frontend" target="_blank">
+      Roadmap Frontend</a>. Basicamente trata-se de um único arquivo HTML 
+      que representa meu currículo:
+    </p>
+    <a class="main_links" href="curriculum/index.html" target="_blank">CV Curriculum Vitae</a>
   </section>
 
   <section id="contato">
     <h2>Contato</h2>
-    <form action="#" method="POST">
+    <form>
       <input type="text" name="nome" placeholder="Seu nome" required />
       <input type="email" name="email" placeholder="Seu e-mail" required />
       <textarea name="mensagem" rows="6" placeholder="Sua mensagem" required></textarea>
       <button type="submit">Enviar</button>
     </form>
   </section>
-  
+
+  <footer class="footer">
+    <p>
+      My <a href='https://www.linkedin.com/in/lucas-bicudo-machado/'>LinkedIn</a>
+      and my <a href='https://github.com/l-bicudo'>GitHub</a> accounts.
+    </p>
+  </footer>
+
   <script src="script.js"></script>
 
 </body>
+
 </html>
